@@ -56,11 +56,11 @@ export default function Loading() {
     })
 
     return (
-        <div className="z-20 fixed top-0 left-0  w-screen h-screen flex justify-center items-center overflow-hidden ">
-            <div ref={div1} className=" w-[50%] h-screen bg-[#5271ff]/60 z-30 backdrop-blur-sm  overflow-x-hidden "></div>
-            <div ref={div2} className="w-[50%] h-screen bg-[#5271ff]/70 z-40 backdrop-blur-sm overflow-x-hidden"></div>
+        <div className="z-[60] fixed top-0 left-0  w-screen h-screen flex justify-center items-center overflow-hidden ">
+            <div ref={div1} className=" w-[50%] h-screen bg-[#5271ff]/60 z-[70] backdrop-blur-sm  overflow-x-hidden "></div>
+            <div ref={div2} className="w-[50%] h-screen bg-[#5271ff]/70 z-[70] backdrop-blur-sm overflow-x-hidden"></div>
             
-            <div className="absolute z-50 flex justify-center items-center w-screen h-screen bg-transparent">
+            <div className="absolute z-[80] flex justify-center items-center w-screen h-screen bg-transparent">
       {/* Arc 1 - Slower Speed */}
       <div
         ref={arc1Ref}
