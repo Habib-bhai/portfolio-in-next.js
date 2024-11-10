@@ -32,8 +32,8 @@ function Projects() {
     {/* other content */}
 
 <div className="flex flex-col justify-center items-center mt-20">
-      <h1 className="text-2xl font-jost font-bold ">A collection of my best projects</h1>
-      <p className="w-96 md:w-[700px] text-center">Within this whole experience in web development, I&apos;ve acquired extensive knowledge using typeScript and next.js. Lemme show you some of the projects I&apos;ve worked on.</p>
+      <h1 className="text-xl md:text-2xl font-jost font-extrabold md:font-bold ">A collection of my best projects</h1>
+      <p className="w-80 md:w-[700px] text-center">Within this whole experience in web development, I&apos;ve acquired extensive knowledge using typeScript and next.js. Lemme show you some of the projects I&apos;ve worked on.</p>
 
    <Link href={"/contact"}> <button className="mt-10 h-10 w-32 bg-[#5271ff] rounded-2xl flex justify-center gap-1 items-center font-jost text-white font-semibold"><Image src="/north_east.svg" alt="arrow" width={20} height={20}/> HIRE ME</button>
    </Link>

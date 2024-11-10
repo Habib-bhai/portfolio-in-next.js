@@ -30,7 +30,7 @@ export default function ContactPage() {
 
         <div className="flex flex-col justify-center items-center mt-20">
           <h1 className="text-2xl font-jost font-bold ">Contact Me</h1>
-          <p className="font-jost text-center">Interested in hiring me for your project or just want to say hi? You can fill in the contact form below or send me an email to 
+          <p className="font-jost text-center w-[320px] md:w-[800px]">Interested in hiring me for your project or just want to say hi? You can fill in the contact form below or send me an email to 
             <span className="text-[#5271ff]"> habibahmed918131@gmail.com </span>.Want to get connected? Follow me on the social channels below.</p>
 
             <div className="flex justify-center items-center gap-4 mt-5 w-[450px] ">
@@ -45,7 +45,7 @@ export default function ContactPage() {
         <div className=" my-5 w-full flex justify-center items-center flex-col">
           <div className="ml-5 my-4 w-full flex justify-start items-center ">
             <p className="w-[3px] h-12 bg-[#5271ff]"></p>
-            <h1 className="text-5xl font-jost font-semibold">Contact Details</h1>
+            <h1 className="text-3xl md:text-5xl font-jost font-bold md:font-semibold">Contact Details</h1>
           </div>
           
           <div className="w-full my-10 flex ml-10 md:ml-0 md:justify-center items-center gap-10 flex-wrap" >
@@ -68,22 +68,22 @@ export default function ContactPage() {
 
                     <div className="flex justify-center items-center gap-5 border-[1px] border-gray-300 rounded-xl pl-5">
                       <Image src={"/icons/dry-clean.png"} alt="image" height={20} width={20}/>
-                    <input type="text" placeholder="Your Name" required className="w-80 h-10 focus:outline-none"/>
+                    <input type="text" placeholder="Your Name" required className=" w-54 md:w-80 h-10 focus:outline-none"/>
                     </div>
 
                     <div className="flex justify-center items-center gap-5 border-[1px] border-gray-300 rounded-xl pl-5">
                     <Image src={"/icons/email.png"} alt="image" height={20} width={20}/>
-                  <input type="email" placeholder="Your Email" required className="w-80 h-10 focus:outline-none"/>
+                  <input type="email" placeholder="Your Email" required className=" w-54 md:w-80 h-10 focus:outline-none"/>
                     </div>
 
                     <div className="flex justify-center items-center gap-5 border-[1px] border-gray-300 rounded-xl pl-5">
                     <Image src={"/icons/smartphone.png"} alt="image" height={30} width={30}/>
-                  <input type="number" placeholder="Your Phone" required className="w-80 h-10 focus:outline-none"/>
+                  <input type="number" placeholder="Your Phone" required className=" w-54 md:w-80 h-10 focus:outline-none"/>
                     </div>
 
                     <div className="flex justify-center items-center gap-5 border-[1px] border-gray-300 rounded-xl pl-5">
                     <Image src={"/icons/compass.png"} alt="image" height={20} width={20}/>
-                  <input type="text"  placeholder="Your Location" required className="w-80 h-10 focus:outline-none"/>
+                  <input type="text"  placeholder="Your Location" required className=" w-54 md:w-80 h-10 focus:outline-none"/>
                     </div>
 
                 </div>

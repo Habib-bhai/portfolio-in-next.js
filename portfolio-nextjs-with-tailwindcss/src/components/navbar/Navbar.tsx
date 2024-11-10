@@ -18,8 +18,8 @@ function Navbar() {
 
 
         {NavItems.map(item => <Link key={item.name} href={item.href}> 
-        <div className={`flex justify-center items-center w-16 h-16 ${path === item.href? "bg-[#5271ff]": "bg-gray-400"} rounded-2xl`}>
-            <Image src={item.image} alt="person" height={50} width={50} />
+        <div className={`flex justify-center items-center w-12 h-12 ${path === item.href? "bg-[#5271ff]": "bg-gray-400"} rounded-2xl`}>
+            <Image src={item.image} alt="person" height={30} width={30} />
         </div> </Link>  
         )}
        
