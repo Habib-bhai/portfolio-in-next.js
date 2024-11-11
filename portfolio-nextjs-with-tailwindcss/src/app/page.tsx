@@ -82,7 +82,7 @@ export default function Home() {
 
 <div className=" mt-16 flex flex-wrap justify-center items-center gap-10">
 
-       <Countup start={0} end={5} delay={0} duration={2} text={"Years of Experience"} specialCharacter=""/>
+       <Countup start={0} end={9} delay={0} duration={2} text={"Months of Experience"} specialCharacter=""/>
        <Countup start={0} end={10} delay={0} duration={2} text={"Projects Completed"} specialCharacter="+" />
        <Countup start={0} end={500} delay={0} duration={2} text={"LinkedIn Connections"} specialCharacter="+"/>    
 </div>
