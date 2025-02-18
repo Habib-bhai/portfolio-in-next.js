@@ -41,7 +41,14 @@ function Projects() {
 
 <div className="flex justify-center items-center gap-3 flex-wrap">
   {/* projects */}
+<Projects_card src="/projects/marketplace.png" tags={["Hiply", "Full Stack", "Next.js"]} objectProperty="cover" href="https://hiply.vercel.app/"/>
+
+<Projects_card src="/projects/institute.png" tags={["Intitute", "Front End", "Next.js"]} objectProperty="cover" href="https://askary-institute-web.vercel.app/"/>
+
+<Projects_card src="/projects/milestone.png" tags={["E commerce", "Front End ", "Next.js"]} objectProperty="cover" href="https://milestone-3-ecommerce-website-ebon.vercel.app/"/>
+
 <Projects_card src="/projects/cod-project.png" tags={["Call Of Duty", "Front End", "Next.js"]} objectProperty="cover" href="https://cod-landing-page-six.vercel.app/"/>
+
 
 <Projects_card src="/projects/teknofest-project.png" tags={["Teknofest Pakistan", "Front End", "UI Clone", "Colaborated", "Next.js"]} objectProperty="cover" href="https://teknofest-clone.vercel.app/"/>
 

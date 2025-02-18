@@ -26,9 +26,10 @@ export default function Resume() {
         <div  className={' hidden md:block static w-1/4 transition-all duration-300 ease-in-out '}><Sidebar/></div>
 
         <div className="w-screen md:w-3/4 flex flex-col justify-end items-center overflow-x-hidden">
-        <Image src={"/resume-pic.png"} alt="resume" height={800} width={800} className="my-10"/>
+        <Image src={"/projects/resume-jams.png"} alt="resume" height={800} width={800} className="my-10"/>
 
-       <a href="/resume/frontend-dev-resume.pdf" download={true}><div className="group relative flex justify-center items-center font-jost bg-gray-400 my-10 h-10 w-52 rounded-2xl before:contents-[''] before:absolute before:w-full before:h-full before:rounded-2xl before:bg-gradient-to-t before:from-[#5271ff] before:via-[#52a3ff] before:to-[#52f1ff] before:z-[2] before:top-0 before:left-0 before:scale-x-0 before:transition-transform before:duration-500 before:ease-in-out before:origin-right hover:before:scale-x-100 hover:before:origin-left "> <p className="z-10 group-hover:text-white font-jost font-semibold">DOWNLOAD RESUME</p>
+       <a href="/resume/jamstack_dev.pdf" download={true}>
+       <div className="group relative flex justify-center items-center font-jost bg-gray-400 my-10 h-10 w-52 rounded-2xl before:contents-[''] before:absolute before:w-full before:h-full before:rounded-2xl before:bg-gradient-to-t before:from-[#5271ff] before:via-[#52a3ff] before:to-[#52f1ff] before:z-[2] before:top-0 before:left-0 before:scale-x-0 before:transition-transform before:duration-500 before:ease-in-out before:origin-right hover:before:scale-x-100 hover:before:origin-left "> <p className="z-10 group-hover:text-white font-jost font-semibold">DOWNLOAD RESUME</p>
         </div>
         </a>
        
